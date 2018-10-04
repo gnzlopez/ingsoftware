@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/mystyle.css"/>
+        <script src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    </head>
+    <body class="">
+        <div class="border border-dark w-25 p-1 mx-auto my-5 bg-dark">
+            <div class="dropdown">
+                    <button type="button" class="btn btn-sm btn-link dropdown-toggle-split" data-toggle="dropdown" id="dropdownBtnMenu">
+                        <img src="./images/menuicon.png" width="30px" alt="">
+                    </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownBtnMenu">
+                    <a class="dropdown-item" href="#">Alta Artesano</a>
+                    <a class="dropdown-item" href="#">Alta Feria</a>
+                    <a class="dropdown-item" href="#">Alta de Rubro</a>
+                </div>
+            </div>
+            <fieldset class="border border-dark" id="ppalfield">
+                <legend class="text-center w-75 h5 text-white bg-secondary border border-dark font-weight-bold">Direccion de ferias</legend>
+                <div class="p-4 text-center">
+                    <form action="">
+                        <label for="feriaName" class="mt-3">Nombre:</label> <br>
+                        <input type="text" name="feriaName" id="feriaName"> <br>
+                        <label for="feriaAddress" class="mt-3">Direccion:</label> <br>
+                        <input type="text" name="Address" id="Address"> <br>
+                        <label for="feriaRubro" class="mt-3">Rubros:</label> <br>
+                        <input type="checkbox" name="feriaRubro" id="feriaRubro1">Rubro 1<br>
+                        <input type="checkbox" name="feriaRubro" id="feriaRubro2">Rubro 2<br>
+                        <input type="checkbox" name="feriaRubro" id="feriaRubro3">Rubro 3<br>
+                        <a href="./principal.html" class="btn btn-secondary m-5">Cargar</a>
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+</html>
